@@ -1,0 +1,32 @@
+.container {
+  width: 95%;
+  margin-inline: auto;
+  max-width: 1920px;
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 0.7rem;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_items p {
+  margin-inline: 1rem;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.nav_items p:hover {
+  color: #e38b29;
+}
